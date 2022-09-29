@@ -12,11 +12,11 @@ namespace FirstDemo
         {
             int year = 2022;
             string month = "Sept";
-           
+            int day=29;
 
             // interpolation --> $ sign
 
-            Console.WriteLine($"\nCurrent year is {year} \t & month is {month}");
+            Console.WriteLine($"\nDay is {day} Current year is {year} \t & month is {month}");
        
         }
     }
